@@ -1,17 +1,12 @@
 <template>
   <footer class="w-full max-w-[1666px] mt-36 pb-4">
     <main class="m-auto pt-4 flex flex-col-reverse md:flex-row justify-between gap-2 md:gap-16 w-full max-w-[1666px] border-t">
-      <section class="[&>p]:text-xs [&>p]:w-full [&>p]:py-[6px] [&>p]:text-center md:[&>p]:text-left">
+      
+    </main>
+    <section class="[&>p]:text-xs [&>p]:w-full [&>p]:py-[6px] [&>p]:text-center md:[&>p]:text-left">
         <p>海阔图床是旧识桥支持的文件上传项目，致力于为用户提供稳定的永久存储服务。</p>
         <p class="text-red-600">注意:上传违反中国大陆、香港及美国法律的图片将会直接删除，并封禁设备IP。</p>
-      </section>
-      <section class="flex flex-col items-center gap-2">
-        <div class="flex gap-6 items-center">
-          <span class="text-slate-600">旧识桥</span>
-        </div>
-        <span class="w-full font-bold text-lg text-center">海阔图床</span>
-      </section>
-    </main>
+    </section>
     <p class="mt-2 text-xs text-center text-slate-500">本站已稳定运行：{{ runTime }}</p>
     <p class="mt-2 text-xs text-center text-slate-500">©2025 旧识桥 | 本站稳定运行</p>
   </footer>
