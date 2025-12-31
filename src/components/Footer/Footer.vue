@@ -3,13 +3,13 @@
     <main class="m-auto pt-4 flex flex-col-reverse md:flex-row justify-between gap-2 md:gap-16 w-full max-w-[1666px] border-t">
       
     </main>
-    <!-- 移除 md:[&>p]:text-left，确保所有屏幕尺寸下都居中 -->
+    <!-- 保持居中样式，添加链接 -->
     <section class="[&>p]:text-xs [&>p]:w-full [&>p]:py-[6px] [&>p]:text-center">
-        <p>海阔图床是旧识桥支持的文件上传项目，致力于为用户提供稳定的永久存储服务。</p>
+        <p>海阔图床是<a href="https://167891.xyz" target="_blank" class="text-slate-600 hover:text-slate-800 underline decoration-1 underline-offset-2">旧识桥</a>支持的文件上传项目，致力于为用户提供稳定的永久存储服务。</p>
         <p class="text-red-600">注意:上传违反中国大陆、香港及美国法律的图片将会直接删除，并封禁设备IP。</p>
     </section>
     <p class="mt-2 text-xs text-center text-slate-500">本站已稳定运行：{{ runTime }}</p>
-    <p class="mt-2 text-xs text-center text-slate-500">©2025 旧识桥 | 本站稳定运行</p>
+    <p class="mt-2 text-xs text-center text-slate-500">©2025 <a href="https://167891.xyz" target="_blank" class="text-slate-600 hover:text-slate-800 underline decoration-1 underline-offset-2">旧识桥</a> | 本站稳定运行</p>
   </footer>
 </template>
 
