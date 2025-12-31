@@ -17,7 +17,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 // 定义站点启动时间（你可以修改为实际的上线时间）
-const LAUNCH_DATE = new Date('2025-01-01 00:00:00')
+const LAUNCH_DATE = new Date('2025-12-31 00:00:00')
 const runTime = ref('')
 let timer = null
 
